@@ -110,9 +110,7 @@ export function Home() {
                 </div>
               </div>
             </div>
-            <CardContent className="flex justify-end p-4">
-              <Button>View</Button>
-            </CardContent>
+            
           </Card>
           <Card>
             <Link className="absolute inset-0 z-10" href="#" />
@@ -159,9 +157,7 @@ export function Home() {
                 </div>
               </div>
             </div>
-            <CardContent className="flex justify-end p-4">
-              <Button>View</Button>
-            </CardContent>
+            
           </Card>
           <Card>
             <Link className="absolute inset-0 z-10" href="#" />
@@ -208,9 +204,289 @@ export function Home() {
                 </div>
               </div>
             </div>
-            <CardContent className="flex justify-end p-4">
-              <Button>View</Button>
-            </CardContent>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">The Midnight Sky</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Sci-Fi, Drama | 1h 58m</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">George Clooney</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">United States</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">George Clooney, Felicity Jones, David Oyelowo</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">December 23, 2020</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">Movie Title</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Genre | Duration</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">Director Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">Country Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">Star 1, Star 2, Star 3</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">Release Date</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">Movie Title</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Genre | Duration</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">Director Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">Country Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">Star 1, Star 2, Star 3</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">Release Date</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">The Midnight Sky</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Sci-Fi, Drama | 1h 58m</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">George Clooney</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">United States</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">George Clooney, Felicity Jones, David Oyelowo</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">December 23, 2020</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">Movie Title</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Genre | Duration</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">Director Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">Country Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">Star 1, Star 2, Star 3</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">Release Date</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
+          </Card>
+          <Card>
+            <Link className="absolute inset-0 z-10" href="#" />
+            <div className="grid gap-4">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <img
+                  alt="Movie Poster"
+                  className="object-cover"
+                  height={600}
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "400/600",
+                    objectFit: "cover",
+                  }}
+                  width={400}
+                />
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-xl font-semibold leading-none">Movie Title</h2>
+                <p className="text-sm font-normal leading-none text-gray-100 dark:text-gray-800">Genre | Duration</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Director</h2>
+                <p className="text-sm font-normal leading-none">Director Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Country</h2>
+                <p className="text-sm font-normal leading-none">Country Name</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Stars</h2>
+                <p className="text-sm font-normal leading-none">Star 1, Star 2, Star 3</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Release Date</h2>
+                <p className="text-sm font-normal leading-none">Release Date</p>
+              </div>
+              <div className="grid gap-2">
+                <h2 className="text-base font-semibold leading-none">Available on</h2>
+                <div className="flex items-center gap-2">
+                  <TvIcon className="w-6 h-6" />
+                  <VideoIcon className="w-6 h-6" />
+                  <TvIcon className="w-6 h-6" />
+                </div>
+              </div>
+            </div>
+            
           </Card>
         </div>
       </div>
